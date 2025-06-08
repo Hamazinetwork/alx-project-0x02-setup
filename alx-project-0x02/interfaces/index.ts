@@ -10,7 +10,13 @@ export interface CardProps{
 export interface ButtonProps{
   size:string;
   shape:string;
+ 
 }
+// interfaces/index.ts
+
+export type Size = "small" | "medium" | "large";
+export type Rounded = "rounded-sm" | "rounded-md";
+
 export interface PostProps {
   userId: number;
   title: string;
