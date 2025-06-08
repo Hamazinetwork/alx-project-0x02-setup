@@ -1,24 +1,33 @@
-# ALX Project: 0x02 - HTML & CSS Setup
+# ALX Project: 0x02 - HTML/CSS & Next.js Setup
 
-This project is part of the **ALX Software Engineering Program**. It demonstrates how to set up a foundational project using **HTML** and **CSS**. The goal is to establish best practices around project structure, code organization, and documentation in web development.
+This project is part of the **ALX Software Engineering Program**. It demonstrates how to set up a basic project using **Next.js**, **HTML**, and **CSS**. The focus is on building a solid foundation for frontend development using modern tools and best practices.
 
-## 📁 Project Structure
-├── README.md
-├── styles
-│ └── styles.css
-├── images
-│ └── logo.png (or any other assets)
-├── index.html
-└── ...
+---
 
-## 🧰 Tools and Technologies
+## 🚀 Next.js Project Setup and Basics
 
-- **HTML5**  
-- **CSS3**  
-- [Google Fonts](https://fonts.google.com/) (e.g., Montserrat)
-- [Favicon setup](https://realfavicongenerator.net/) (optional)
+This project was bootstrapped using [Next.js](https://nextjs.org/), a React-based framework that enables server-side rendering and simplified routing.
 
-## 🚀 Getting Started
+### 📁 Folder Structure
 
+├── pages/
+│ └── index.tsx # Home page
+├── components/
+│ ├── Header.tsx
+│ ├── Footer.tsx
+│ └── Layout.tsx
+├── public/
+│ └── favicon.ico
+├── styles/
+│ └── globals.css
+├── tsconfig.json
+├── tailwind.config.js
+└── README.md
 
+### 📦 How to Run the Project
 
+1. **Install dependencies**
+
+   ```bash
+   npm install
+npm run dev
